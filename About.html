@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+    <style>
+       body {
+        background-color: #ffffff; /* Primary color */
+        color: rgb(22, 22, 150); /* Secondary color */
+      }
+
+      footer a {
+        color: rgb(22, 22, 150); /* Accent color */
+      }
+      .carousel-item img {
+        object-fit: cover;
+        width: 100%;
+        height: 400px;
+      }
+    </style>
+     
+
+
+  </head>
+  <body  >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <div class="container">
+      <nav class="navbar navbar-dark  fixed-top" style="background-color:rgb(22, 22, 150);">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">DARC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style="background-color:rgb(18, 18, 96);">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" style="color: aliceblue;" >Weclocome to the DarkWeb</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="About.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" href="futurescope.html">Future Scope</a>
+                    </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Information
+                    </a>
+                    <ul class="dropdown-menu  " style="background-color:white;">
+                      <li><a class="dropdown-item" href="MeetTeam.html">TeamMates</a></li>
+                      <!-- <li><a class="dropdown-item" href="#">Contact us</a></li> -->
+                      <li>
+                        <!-- <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="Contact.html">Contact us</a></li>
+                    </ul> -->
+                  </li>
+                </ul>
+                <!-- <form class="d-flex mt-3" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-success" type="submit">Search</button>
+                </form> -->
+              </div>
+            </div>
+          </div>
+        </nav>
+    <hr>
+    <hr>
+      <div class="container my-4" >
+        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis " style="color: blue;">
+          <div class="col-lg-6 px-0">
+            <h1 class="display-4 fst-italic">Our Mission to Illuminate the Dark Web</h1>
+            <p class="lead my-3">Automate the exploration of hidden services using Scrapy and Tor.
+              Extract data efficiently from .onion sites for analysis.
+              Help law enforcement, researchers, and cybersecurity professionals combat illicit activities.</p>
+            <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="container my-4" >
+        <div class="container marketing">
+      
+          <!-- bg-body-secondary -->
+          <!-- START THE FEATURETTES -->
+      
+          <hr class="featurette-divider">
+      
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">Automating Exploration of Hidden Services <span class="text-body-secondary">It’ll blow your mind.</span></h2>
+              <p class="lead">DARC leverages the Scrapy framework and Tor network to automate the exploration of hidden services on the dark web. 
+                These services, accessed via .onion sites, often contain critical information related to illicit activities and cybercrime. 
+                By using specialized tools, DARC systematically navigates and explores these sites to uncover valuable intelligence without the
+                 need for manual intervention. This automation allows for continuous, large-scale monitoring of the dark web, ensuring timely
+                 and efficient data collection.</p>
+            </div>
+            <div class="col-md-5">
+              <img src="https://i.pinimg.com/564x/ae/ed/52/aeed529d1fb9cb86b80d06596492a86c.jpg" lass="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400"   alt="..." >
+            </div>
+          </div>
+      
+          <hr class="featurette-divider">
+      
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1"> Efficient Data Extraction and Analysis <span class="text-body-secondary">See for yourself.</span></h2>
+              <p class="lead">DARC focuses on extracting data efficiently from .onion sites for in-depth analysis. The platform employs advanced 
+                scraping techniques to gather real-time data from dark web sources, ensuring that valuable insights are not missed. Once the data is 
+                collected, it undergoes rigorous analysis to identify emerging trends, threats, and patterns within the dark web. This allows DARC to
+                 transform raw data into actionable intelligence, which can be used to track criminal activities, illicit marketplaces,
+                 and illegal forums.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img src="https://i.pinimg.com/736x/3d/9e/c2/3d9ec259eaa4ee3f246e49cc391a4646.jpg" lass="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400"   alt="..." >
+            </div>
+          </div>
+      
+          <hr class="featurette-divider">
+      
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">Supporting Law Enforcement and Cybersecurity Efforts <span class="text-body-secondary">Checkmate.</span></h2>
+              <p class="lead">DARC plays a crucial role in assisting law enforcement, researchers, and cybersecurity professionals in combating 
+                illicit activities on the dark web. By providing real-time intelligence, DARC helps stakeholders identify and mitigate emerging threats. Whether it’s tracking cybercrime operations, uncovering illegal goods and services, or analyzing malicious activity, DARC empowers these professionals to take proactive measures and enhance cybersecurity. Its automated and ethical approach ensures that all activities align with legal and moral standards, making it a valuable tool
+                 in the fight against online crime.</p>
+            </div>
+            <div class="col-md-5">
+              <img src="https://i.pinimg.com/564x/28/f6/2e/28f62e1d6a2bde1e6ac0ae86b7d008df.jpg" lass="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400"   alt="..." >
+            </div>
+          </div>
+      
+          <hr class="featurette-divider">
+      
+          <!-- /END THE FEATURETTES -->
+      
+        </div>
+      </div>
+
+      <div class="container my-4">
+        <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+          <p>Blog template built for <a href="https://github.com/sarthak4399/DARC">DARC WEB</a> by <a href="https://www.linkedin.com/in/shalini-jha-0aa1b8295/">@Shalini</a>.</p>
+          <p class="mb-0">
+            <a href="#">Back to top</a>
+          </p>
+        </footer>
+       </div>
+  </body>
+</html>
